@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
       "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "repo": "https://github.com/crdroidandroid/android_kernel_xiaomi_sm8150",
+      "branch": "14.0-raphael",
+      "device": "raphael"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -14,7 +14,7 @@
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "14",
         "name": "clang"
       }
     ],
